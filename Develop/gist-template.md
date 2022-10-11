@@ -81,6 +81,8 @@ Quantifier	Description
 
 ### Flags
 
+- The ignore flag `(i)`, `i` stands for ignore.
+- The global flag `(g)`. Without the global flag, the RegExp object only checks if there is a match in a string and returns the first match.
 ### Grouping and Capturing
 
 ### Bracket Expressions
