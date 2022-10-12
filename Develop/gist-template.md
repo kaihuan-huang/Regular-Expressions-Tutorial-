@@ -59,10 +59,10 @@ regular expression anchors -- match a position before or after characters. Ancho
 - `/^\d*(.\d+)?$/` Whole numbers and decimal numbers
 - `/^-?\d*(.\d+)?$/` Negative, positive whole numbers & decimal numbers
 ```
-Quantifier	Description
-*	        Match zero or more times.
-+	        Match one or more times.
-?	        Match zero or one time.
+  Quantifier	Description
+  *	        Match zero or more times.
+  +	        Match one or more times.
+  ?	        Match zero or one time.
 { n }	    Match exactly n times.
 { n ,}	    Match at least n times.
 { n , m }	Match from n to m times.
