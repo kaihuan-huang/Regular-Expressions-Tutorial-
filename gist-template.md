@@ -60,15 +60,16 @@ regular expression anchors -- match a position before or after characters. Ancho
 - `/^-?\d*(.\d+)?$/` Negative, positive whole numbers & decimal numbers
 ```
   Quantifier	Description
-  *	        Match zero or more times.
-  +	        Match one or more times.
-  ?	        Match zero or one time.
-{ n }	    Match exactly n times.
-{ n ,}	    Match at least n times.
-{ n , m }	Match from n to m times.
+  *	          Match zero or more times.
+  +	          Match one or more times.
+  ?	          Match zero or one time.
+{ n }	        Match exactly n times.
+{ n ,}	      Match at least n times.
+{ n , m }	    Match from n to m times.
 ```
 ### OR Operator
-- Regex uses the pipe operator `|` to represent an alternation, which is like the logical OR operator in regular expressions. Use parentheses () to wrap the parts that you want to apply the alternation.
+- Regex uses the pipe operator `|` to represent an alternation, which is like the logical OR operator in regular expressions. 
+- Use parentheses () to wrap the parts that you want to apply the alternation.
 
 
 ### Character Classes
@@ -118,11 +119,16 @@ Lazy: Stop searching once condition is satisfied.
 ### Look-ahead and Look-behind
 
 ## Author
+```
+Currently I am an MSc candidate in Computer Science with Artificial
+Intelligence at the University of York in the United Kingdom. In addition, I am studying Full
+Stack Web Development at the UC Berkeley Extension School. I have worked at the $30B electric
+car company NIO and LG in various functions such as intern and marketing. A few years ago, I
+moved to the United States to pursue new opportunities and improve my English and Spanish
+skills. After moving to Silicon Valley and meeting many brilliant people here, I decided that I
+want to pursue a career as a software engineer. I have always enjoyed math and loved learning
+about future technologies. I believe this is the best path for my skills and interests.
+```
+
 - :octocat: [Kaihuan Huang](https://github.com/kaihuan-huang)<br />
-
-```
-Author✍️: Kaihuan Huang
-📧: huangkaihuan0216@gmail.com
-https://github.com/kaihuan-huang
-
-```
+- 📧:  <a href="mailto:huangkaihuan0216@gmail.com">huangkaihuan0216@gmail.com</a>
