@@ -111,12 +111,18 @@ Lazy: Stop searching once condition is satisfied.
 ### Boundaries
 - A word boundary `\b` is a test, similiar with `^` and `$`.
 
-- When the regexp engine (program module that implements searching for regexps) comes across `\b`, it checks that the position in the string is a word boundary.
+- When the regex engine (program module that implements searching for regexps) comes across `\b`, it checks that the position in the string is a word boundary.
 - Three different positions that qualify as word boundaries: At string start, if the first string character is a word character `\w`. Between two characters in the string, where one is a word character `\w` and the other is not. At string end, if the last string character is a word character `\w`.
 ### Back-references
 
 ### Look-ahead and Look-behind
 
 ## Author
+- :octocat: [Kaihuan Huang](https://github.com/kaihuan-huang)<br />
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+```
+Author✍️: Kaihuan Huang
+📧: huangkaihuan0216@gmail.com
+https://github.com/kaihuan-huang
+
+```
