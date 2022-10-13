@@ -83,14 +83,36 @@ regular expression anchors -- match a position before or after characters. Ancho
 
 - The ignore flag `(i)`, `i` stands for ignore.
 - The global flag `(g)`. Without the global flag, the RegExp object only checks if there is a match in a string and returns the first match.
+
 ### Grouping and Capturing
+
+- Place a rule in parentheses `()` to create a capturing group. A regular expression can have multiple capturing groups.
+- Use the `(?<capturingGroupName>rule)` to create a named capturing group for the rule in a pattern.
 
 ### Bracket Expressions
 
+- `[abcd]`             Matches any character in the square brackets.
+- `[a-d]`               Matches any character in the range of characters separated by a hyphen `(-)`.
+- `[^abcd] or [^a-d]`   Matches any character except those in the square brackets or in the range of characters separated by a hyphen `(-)`.
+- `[.ab.]`              Matches a multi-character collating element.
+-`[=a=]`               Matches all collating elements with the same primary sort order as that element, including the element itself.
+
+
 ### Greedy and Lazy Match
+```
+Greedy: Keep searching until condition is not satisfied.
+        Quantifiers use the greedy mode by default.
+        Greedy quantifiers match their preceding elements as much as possible.
+Lazy: Stop searching once condition is satisfied.
+      Lazy quantifiers match their preceding elements as few as possible to return the smallest possible matches.
+      Use a question mark (?) to transform a greedy quantifier into a lazy quantifier.
+```
 
 ### Boundaries
+- A word boundary `\b` is a test, similiar with `^` and `$`.
 
+- When the regexp engine (program module that implements searching for regexps) comes across `\b`, it checks that the position in the string is a word boundary.
+- Three different positions that qualify as word boundaries: At string start, if the first string character is a word character `\w`. Between two characters in the string, where one is a word character `\w` and the other is not. At string end, if the last string character is a word character `\w`.
 ### Back-references
 
 ### Look-ahead and Look-behind
