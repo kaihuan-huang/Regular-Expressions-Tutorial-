@@ -5,10 +5,10 @@
 Regular expression are patterns used to match character combinations in string. In JavaScript, regular expressions are also objects. These patterns are used with the exec and test methods of RegExp, along with the match, replace, search, and split methods of String.
 
 ## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-
-
+Demo an example for URL Regular Expressions
+```
+https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#()?&//=]*)
+```
 ## Table of Contents
 
 - [Anchors](#anchors)
@@ -26,23 +26,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 Regular expressions are objects that represent patterns in strings. They use their own language to express these patterns.
-
-`/abc/`	A sequence of characters
-/[abc]/	Any character from a set of characters
-/[^abc]/	Any character not in a set of characters
-/[0-9]/	Any character in a range of characters
-/x+/	One or more occurrences of the pattern x
-/x+?/	One or more occurrences, nongreedy
-/x*/	Zero or more occurrences
-/x?/	Zero or one occurrence
-/x{2,4}/	Two to four occurrences
-/(abc)/	A group
-/a|b|c/	Any one of several patterns
-/\d/	Any digit character
-/\w/	An alphanumeric character (“word character”)
-/\s/	Any whitespace character
-/./	Any character except newlines
-/\b/	A word boundary
+![Cheatsheet](Develop/images/sheet1.png)
 
 
 ### Anchors
@@ -132,3 +116,4 @@ about future technologies. I believe this is the best path for my skills and int
 
 - :octocat: [Kaihuan Huang](https://github.com/kaihuan-huang)<br />
 - 📧:  <a href="mailto:huangkaihuan0216@gmail.com">huangkaihuan0216@gmail.com</a>
+- source: https://digitalfortress.tech/tips/top-15-commonly-used-regex/
