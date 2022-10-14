@@ -65,10 +65,9 @@ https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
-## Regex Components
-
-Regular expressions are objects that represent patterns in strings. They use their own language to express these patterns.
-![Cheatsheet](Develop/images/sheet1.png)
+## Regex Test
+Run `node test.js` to test your urls in test.js file:
+![Test](Develop/images/TestSample.png)
 
 
 ### Anchors
