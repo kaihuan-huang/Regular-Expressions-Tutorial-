@@ -1,7 +1,3 @@
-function useRegex(input) {
-    let regex = /^.*$/i;
-    return regex.test(input);
-}
 
 //Test If Match
 const string = 'my name is kaihuan';
